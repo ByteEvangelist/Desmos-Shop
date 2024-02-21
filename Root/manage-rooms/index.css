@@ -1,0 +1,87 @@
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+#main {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #eff2f3;
+  color: white;
+}
+#svg-desmos {
+  fill: #959595;
+}
+#rooms {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#roomName {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  border: black solid 1px;
+}
+#roomPassword {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  border: black solid 1px;
+}
+#left {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#newRoom {
+  margin-top: 10px;
+}
+#logout {
+  border: none;
+  background-color: #000000;
+  cursor: pointer;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#maintable {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+#center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

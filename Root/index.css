@@ -1,0 +1,69 @@
+#main {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  height: 100%;
+  box-sizing: border-box;
+}
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #eff2f3;
+  color: white;
+}
+#svg-desmos {
+  fill: #959595;
+}
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+
+  text-align: center;
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+#register {
+  background-color: #000000;
+  border: none;
+  color: white;
+  border: 2px solid #000000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 4px;
+  border-radius: 25px;
+  width: 4em;
+}
+
+#login {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: content-box;
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 4px;
+  border-radius: 25px;
+  width: 4em;
+}
